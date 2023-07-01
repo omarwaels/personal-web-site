@@ -16,9 +16,9 @@ function Footer  ()  {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end" style={{marginTop:'20px'}}>
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/omar-wael-035265205/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.facebook.com/omar.king.1401933" target="_blank"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://www.instagram.com/3mar_wael/" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from '../assets/img/logo2.png'
 import navIcon1 from '../assets/img/nav-icon1.svg'
@@ -43,7 +43,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled":''}>
        
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" style={{cursor: 'default'}}>
             <img src={logo} alt='Logo' ></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -59,9 +59,9 @@ function NavBar() {
           <span className='navbar-text'>
             <div className='social-icon'> 
             
-            <a href='#'><img src={navIcon1} alt="FB"></img></a>
-            <a href='#'><img src={navIcon2} alt="FB"></img></a>
-            <a href='#'><img src={navIcon3} alt="FB"></img></a>
+            <a href='https://www.linkedin.com/in/omar-wael-035265205/' target="_blank"><img src={navIcon1} alt="FB"></img></a>
+            <a href='https://www.facebook.com/omar.king.1401933'target="_blank"><img src={navIcon2} alt="FB"></img></a>
+            <a href='https://www.instagram.com/3mar_wael/'target="_blank"><img src={navIcon3} alt="FB"></img></a>
 
             </div>
 
