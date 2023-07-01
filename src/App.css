@@ -114,6 +114,24 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+.anchorProj{
+  padding: 10px 5px ;
+  text-decoration: none;
+  border: 3px solid #956262;
+  text-align: center;
+  color: #956262;
+}
+.anchorProj:hover{
+  background-color: purple;
+}
+.project-img {
+  width: 350px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 5px solid rgba(219, 87, 166, 0.5);
+}
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;

@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import  ProjectCard  from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -9,38 +9,11 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
+let projectInfo3 = "Road segmentation is a task in computer vision that involves identifying and locating roads within an image or video" 
++"feed. This can be a crucial component of various applications, such as autonomous vehicles and traffic monitoring systems." 
++"A typical road segmentation project involves collecting training data, selecting an appropriate segmentation technique, and developing" 
++"and evaluating a segmentation model. Some popular segmentation techniques include semantic segmentation, instance segmentation," 
++"and edge detection. Deep learning techniques, such as convolutional neural networks  "
 
   return (
     <section className="project" id="project">
@@ -58,43 +31,33 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">E-commerce Website </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Road segementation </Nav.Link>
+                      <Nav.Link eventKey="second">Note Web Site </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Note Web Site</Nav.Link>
+                      <Nav.Link eventKey="third">Road segementation</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
+                    <Row>
+
                               <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
+                                name='Road Segmentaion Project' imgArr={['CarDetection.gif','LaneDetection.gif']} projectInfo={projectInfo3} projlink='https://github.com/omarwaels/image_project.git'/>
+
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
+                      <Row>
+
+                                <p>Loremsssss ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Loremsssss ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Row>
+                              <ProjectCard
+                                name='Ecommerce Project "Graduation Proj"' imgArr={['CarDetection.gif','LaneDetection.gif']} projectInfo={projectInfo3} projlink='https://github.com/omarwaels/image_project.git'/>
+                                </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

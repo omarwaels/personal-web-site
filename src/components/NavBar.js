@@ -19,7 +19,7 @@ function NavBar() {
     // const status = activeLink[0];
     // const setActiveLink = activeLink[1];
     const [scrolled, setScrolled] = useState(false);
-    console.log(activeLink)
+    
     useEffect(() => {
         const onScroll= ()=>{
             if(window.scrollY > 50){
@@ -53,6 +53,7 @@ function NavBar() {
             <Link to={"/"} className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={()=>setActiveLink("home")}>Home</Link>
             <Link to={"/Skills"}className={activeLink === "Skills" ? "active navbar-link" : "navbar-link"} onClick={()=>setActiveLink('Skills')}>Skills</Link>
             <Link to={"/Projects"}className={activeLink === "Projects" ? "active navbar-link" : "navbar-link"} onClick={()=>setActiveLink('Projects')}>Projects</Link>
+            <Link to={"/Info"}className={activeLink === "Info" ? "active navbar-link" : "navbar-link"} onClick={()=>setActiveLink('Info')}>Info & CV</Link>
         
           </Nav>
           <span className='navbar-text'>
