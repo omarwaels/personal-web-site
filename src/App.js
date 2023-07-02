@@ -25,7 +25,7 @@ Swal.fire({
   cancelButtonText:
     '<i class="fa fa-thumbs-down"></i>',
   cancelButtonAriaLabel: 'Thumbs down',
-  timer: 3500
+  timer: 2500
 })
 
 function App() {

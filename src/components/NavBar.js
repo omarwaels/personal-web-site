@@ -9,6 +9,8 @@ import logo from '../assets/img/logo2.png'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
+
+
 import { Link } from 'react-router-dom';
 
 
@@ -59,9 +61,10 @@ function NavBar() {
           <span className='navbar-text'>
             <div className='social-icon'> 
             
-            <a href='https://www.linkedin.com/in/omar-wael-035265205/' target="_blank"><img src={navIcon1} alt="FB"></img></a>
+            <a href='https://www.linkedin.com/in/omar-wael-035265205/' target="_blank"><img src={navIcon1} alt="Ln"></img></a>
             <a href='https://www.facebook.com/omar.king.1401933'target="_blank"><img src={navIcon2} alt="FB"></img></a>
-            <a href='https://www.instagram.com/3mar_wael/'target="_blank"><img src={navIcon3} alt="FB"></img></a>
+            <a href='https://www.instagram.com/3mar_wael/'target="_blank"><img src={navIcon3} alt="Instagram"></img></a>
+            
 
             </div>
 
