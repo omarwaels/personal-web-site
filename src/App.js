@@ -14,7 +14,7 @@ Swal.fire({
   title: '<strong>Notice </strong>',
   icon: 'info',
   html:
-    'The Website last updated  7 / 2 / 2023 ' ,
+    'The Website last updated  12 / 10 / 2023 ' ,
 
   showCloseButton: true,
   

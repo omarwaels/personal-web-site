@@ -39,40 +39,45 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>project management</h5>
+                                <h5>Java Core</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>C#</h5>
+                                <h5>Spring Boot</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>.Net</h5>
+                                <h5>JDBC</h5>
                             </div>
                             
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Python</h5>
+                                <h5>JAXP</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>XML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>XSD</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>React</h5>
+                                <h5>Data structure</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>php</h5>
+                                <h5>Algorithm</h5>
                             </div>
+  
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Tensor flow</h5>
+                                <img src={meter2} alt="Image" />
+                                <h5>PLSQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Laravel</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>MS Azure Deploy</h5>
+                                <h5>Git & Git HUB</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -80,7 +85,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Java Script</h5>
+                                <h5>Design pattern</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
